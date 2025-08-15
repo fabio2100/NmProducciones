@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              ProAV Studios
+              NM Producciones
             </h3>
             <p className="text-muted-foreground">
               Productora audiovisual especializada en la creación de experiencias inolvidables 
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-12 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 ProAV Studios. Todos los derechos reservados.
+            © 2024 NM Producciones. Todos los derechos reservados.
           </p>
         </div>
       </div>
