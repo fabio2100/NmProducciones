@@ -5,13 +5,13 @@ import { Calendar, MapPin, Users, Camera } from "lucide-react";
 const events = [
   {
     id: 1,
-    title: "Concierto Benéfico - Fundación Esperanza",
-    type: "Musical",
-    date: "15 Dic 2024",
-    location: "Teatro Principal",
-    attendees: "2,500",
+    title: "Clase con Eleonora Wexler",
+    type: "Clase",
+    date: "25 Ago 2025",
+    location: "Espacio cultural Julio Le Parc",
+    //attendees: "2,500",
     services: ["Grabación Multi-cámara", "Streaming", "Post-producción"],
-    status: "Completado"
+    //status: "Completado"
   },
   {
     id: 2,
@@ -87,10 +87,10 @@ const EventsGrid = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Nuestros <span className="bg-gradient-accent bg-clip-text text-transparent">Eventos</span>
+            Próximos <span className="bg-gradient-accent bg-clip-text text-transparent">Eventos</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Una muestra de los eventos que hemos producido y los próximos proyectos en los que estaremos trabajando
+            Una muestra de los proyectos en los que estamos trabajando
           </p>
         </div>
 
